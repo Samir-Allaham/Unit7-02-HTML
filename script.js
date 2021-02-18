@@ -11,7 +11,8 @@ function comparison () {
   if (userInput < 0) {
     document.getElementById('answer').innerHTML = 'Negative'
   }
-  else{
+  
+  else { 
     document.getElementById('answer').innerHTML = 'Positive'
   }
 }
